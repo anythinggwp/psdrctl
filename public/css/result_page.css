@@ -1,0 +1,31 @@
+#result_list{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#result_list > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    background-color: white;
+}
+#search_cont{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+#search_actions > img {
+    width: 16px;
+    height: 16px;
+}
+#search_actions {
+    display: flex;
+    height: 32px;
+    width: 900px;
+    gap: 15px;
+    background-color: white;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,51 @@
+#add_spdr_menu {
+    display: flex;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    z-index: 10px;
+    background-color: white;
+    border-radius: 15px;
+}
+#add_spdr_menu > select{
+    width: 250px;
+}
+#add_spdr_menu > div{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+#add_spyder{
+    display: flex;
+    background-color: white;
+    width: 64px;
+    height: 64px;
+    border-radius: 15px;
+}
+#spyders_list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#spyders_list > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    background-color: white;
+    border-radius: 15px;
+}
+#spyders_list > div > p{
+    width: 300px;
+}
+.del_spdr {
+    width: 16px;
+    height: 16px;
+}

@@ -1,0 +1,23 @@
+.button {
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    background-color: white;
+    flex-shrink: 0;
+    text-decoration:none;
+    color: black;
+}
+.button > img {
+    height: 100%;
+}
+
+#control_panel {
+    display: flex;
+    height: 64px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+#control_panel > a {
+    width: 200px;
+    justify-content: center;
+}

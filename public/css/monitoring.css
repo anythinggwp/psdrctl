@@ -1,0 +1,32 @@
+#projects_list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+#projects_list > div{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    gap: 10px;
+    align-items: center;
+    background-color: white;
+    div:first-child{
+        width: 10% !important;
+    }
+}
+#projects_list > div > div {
+    width: 25%;
+    flex-shrink: 0;
+}
+
+/* .info {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: white;
+    height: 125px;
+    justify-content: center;
+    align-items: center;
+} */
