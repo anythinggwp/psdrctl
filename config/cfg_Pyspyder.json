@@ -1,0 +1,1 @@
+{"spyder_1":{"Addr":"192.168.1.17:4444","Config":{"taskdb":"mongodb+taskdb://127.0.0.1:27017/taskdb","projectdb":"mongodb+projectdb://127.0.0.1:27017/projectdb","resultdb":"mongodb+resultdb://127.0.0.1:27017/resultdb","webui":{"port":4444},"fetcher":{"xmlrpc-port":4445},"puppeteer":{"port":4446},"scheduler":{"xmlrpc-port":4447}}}}
