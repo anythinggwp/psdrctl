@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Управление парсерами</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="/public/css/header.css">
+    <link rel="stylesheet" href="/public/css/spyder_menu.css">
+    <script src="/public/js/spyder_req.js" defer></script>
+  </head>
+  <body>
+    {{ template "header"}}
+    <div id="add_spyder" class="butt">
+      <img src="public/img/add_icon.png">
+    </div>
+    <div id="del_spyder" style="display: none;">
+      <img src="public/img/add_icon.png">
+    </div>
+    <div id="spyders_list">
+    </div>
+    <div id="add_spdr_menu" style="display: none;">
+      <label>Название</label>
+      <input type="text" class="spdr_stngs">
+      <label>taskdb</label>
+      <select class="spdr_stngs">
+      </select>
+      <label>projectdb</label>
+      <select class="spdr_stngs">
+      </select>
+      <label>resultdb</label>
+      <select class="spdr_stngs">
+      </select>
+      <label>IP-адрес</label>
+      <input type="text" class="spdr_stngs">
+      <div id="save_butt" class="butt">
+        <h2>Сохранить</h2>
+      </div>
+      <div id="cancel_butt" class="butt">
+        <h2>Отмена</h2>
+      </div>
+    </div>
+  </body>
+</html>

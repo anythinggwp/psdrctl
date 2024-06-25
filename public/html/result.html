@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Заголовок страницы</title>
+    <link rel="stylesheet" href="/public/css/header.css">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="/public/css/result_page.css">
+    <script src="/public/js/result_page.js" defer></script>
+    
+  </head>
+  <body>
+    {{ template "header"}}
+  <div id="search_cont">
+    <div id="search_actions">
+      <label>
+        Источник <input type="text">
+      </label>
+      <label>
+        Поле <input type="text">
+      </label>
+      <label>
+        Содержимое <input type="text">
+      </label>
+      <img  id="srch_butt" class="img_butt" src="public/img/srch_icon.png">
+      <img  id="ref_butt" class="img_butt" src="public/img/ref_icon.png">
+    </div>
+  </div>
+  <div id="result_list">
+
+  </div>
+  </body>
+</html>

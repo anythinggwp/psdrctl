@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/css/style.css">
+    <link rel="stylesheet" href="/public/css/header.css">
+    <link rel="stylesheet" href="/public/css/db_config.css">
+    <script src="/public/js/bd_req.js" defer></script>
+    <title>Заголовок страницы</title>
+  </head>
+  <body>
+    {{ template "header"}}
+    <div id="cntrol_btn">
+      <div id="add_db" class="butt">
+        <img src="public/img/add_icon.png">
+      </div>
+      <div id="ref_db" class="butt">
+        <img src="public/img/ref_icon.png">
+      </div>
+    </div>
+    <div id="db_config_form">
+      <label>
+        Имя
+      </label>
+      <input type="text">
+      <label>
+        IP-адрес
+      </label>
+      <input type="text">
+      <label>
+        Порт 
+      </label>
+      <input type="text">
+      <label>
+        Логин
+      </label>
+      <input type="text">
+      <label>
+        Пароль 
+      </label>
+      <input type="text">
+      <label>
+        БД 
+      </label>
+      <select class="spdr_stngs">
+        <option>taskdb</option>
+        <option>projectdb</option>
+        <option>resultdb</option>
+      </select>
+      <div id="save_butt" class="butt">
+        <h2>Сохранить</h2>
+      </div>
+      <div id="cancel_butt" class="butt">
+        <h2>Отмена</h2>
+      </div>
+    </div>
+    <div id="dbs_list"></div>
+  </body>
+</html>
